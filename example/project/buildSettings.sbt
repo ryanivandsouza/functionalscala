@@ -18,6 +18,7 @@ libraryDependencies += "org.apache.commons" % "commons-lang3" % "3.1"
 libraryDependencies += "org.scalaz" %% "scalaz-core" % "6.0.3"
 
 scalacOptions ++= Seq("-deprecation")
+
 addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.2.0")
 
 // for dependency-graph plugin
